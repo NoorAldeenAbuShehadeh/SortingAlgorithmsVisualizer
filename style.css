@@ -1,0 +1,130 @@
+
+body{
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  border:2px solid;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title{
+    text-align: center;  
+    margin-top: 5px;
+    margin-bottom: 15px;   
+}
+
+.ArraySize ,
+.Speed{
+    -webkit-appearance: none;
+    width: 200px;
+    height: 8px;
+    background: black;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 15px;
+  }
+  
+  .ArraySize::-webkit-slider-thumb,.Speed::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 25px;
+    background:black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+ .container span{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;    
+  }
+
+  p{
+    padding: 0;
+    margin: 8px 0px;
+  }
+
+  .ArrayContainer{
+    display: flex;
+    align-items: center;
+  }
+
+  .ArrayContainer p{
+    margin: 0px 8px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #amount{
+    color: white;
+  }
+  .control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button{
+    padding: 10px;
+    margin: 20px;
+    background: none;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+  }
+
+  #speed{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  button:hover{
+    background-color: rgb(241, 236, 236);
+  }
+  
+  #subtitle{
+    text-align: center;
+    width: 200px;
+  }
+  
+  #sliderValue{
+    font-weight: bold;
+    display: inline;
+  }
+
+  .container{
+    margin: 0px 20px;
+  }
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1346px;
+    height: 450px;
+    background-color: black;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.Item{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: blue;
+    margin-right:1px;
+    font-size: 40px;
+    width: 50px;
+    max-width: 50px;
+}
