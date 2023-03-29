@@ -1,5 +1,5 @@
 # Sorting-Algorithms-Visualizer
-#### you can see the demo deployed from githup pages on this link: https://nooraldeenabushehadeh.github.io/Sorting-Algorithms-Visualizer/
+#### you can see the demo deployed from githup pages on this link: https://nooraldeenabushehadeh.github.io/SortingAlgorithmsVisualizer/
 
 ## intoduction:
 - This visualizer is building using html, css and java script.
