@@ -3,8 +3,9 @@ const Items = document.getElementsByClassName("Item");
 const RandomizeBtn = document.getElementById("Randomize");
 const SolveBtn = document.getElementById("Solve");
 const Parent = document.getElementsByClassName("parent");
+const ArraySize = document.getElementById("ArraySize");
 /*---------------add event listener to the slider to change the limit of array---------------- */
-document.getElementById("ArraySize").addEventListener("change", () => {
+ArraySize.addEventListener("change", () => {
   document.getElementById("sliderValue").innerHTML =
     document.querySelector("#ArraySize").value;
 });
