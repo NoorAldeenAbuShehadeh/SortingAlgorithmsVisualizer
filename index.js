@@ -96,6 +96,9 @@ const Sorted=(i)=>{
 
 /*----------------------build bubble sorting algorithm------------------------------- */
 const BubbleSort = async () => {
+  SolveBtn.disabled = true;
+  RandomizeBtn.disabled = true;
+  ArraySize.disabled = true;
   for (let i = 0; i < elements.length; i++) {
     for (let j = 1; j < elements.length - i; j++) {
       inProgress(j-1,j);
@@ -116,6 +119,9 @@ const BubbleSort = async () => {
     }
   }
   Sorted(0);
+  SolveBtn.disabled = false;
+  RandomizeBtn.disabled = false;
+  ArraySize.disabled = false;
 };
 /*-------------------------------add event listener to solve button--------------  */
 SolveBtn.addEventListener("click", BubbleSort);
